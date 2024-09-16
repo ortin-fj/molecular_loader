@@ -6,6 +6,10 @@ Welcome to Molecular Loader for Blender! Here you will find a simple code that y
 
 
 
+https://github.com/user-attachments/assets/5a4615c1-be58-482d-a62e-f11d0d846f6f
+
+
+
 The package "Molecular Nodes" from Brady Johnston (https://github.com/BradyAJohnston/MolecularNodes) is far superior in this aspect, but this code allows to easily have full control of every single bond in the simulation. 
 
 I would like to acknowledge "Blender Atomic Loader" (https://github.com/nanotech-empa/blender-atomic-loader). I copied the function that creates the material from this code. This code was designed for Blender v.2 and unfortunately it doesn't work anymore (at least in my PC).
