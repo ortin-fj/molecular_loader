@@ -4,6 +4,8 @@ Python script that allows you to easily upload single geometries or molecular dy
 
 Welcome to Molecular Loader for Blender! Here you will find a simple code that you may use to load molecules into Blender. Blender already has built-in function to upload molecules, but this code can also upload molecular dynamics trajectories! You can use this script to make beautiful movies for your scientific conferences. You can upload any type of structure file that ASE supports (XYZ,PDB...). 
 
+
+
 The package "Molecular Nodes" from Brady Johnston (https://github.com/BradyAJohnston/MolecularNodes) is far superior in this aspect, but this code allows to easily have full control of every single bond in the simulation. 
 
 I would like to acknowledge "Blender Atomic Loader" (https://github.com/nanotech-empa/blender-atomic-loader). I copied the function that creates the material from this code. This code was designed for Blender v.2 and unfortunately it doesn't work anymore (at least in my PC).
