@@ -32,7 +32,7 @@ I would like to acknowledge "Blender Atomic Loader" (https://github.com/nanotech
 
 ###########   EXTRA DETAILS ############
 
-1. The list of bonds in the system is created considering the covalent radii of each atom as implemented in ase. However, for some special cases (high-energy structures or species containing metals) not all the bonds may be drawn. In those cases, the variable 'explicit' should be substituted by a list of lists containing the index of the pairs of atoms whose bond you would like to add. For example, if I want to add a bond between my first and third atoms, and another one between my first and fourth atoms:
+1. The list of bonds in the system is created considering the covalent radii of each atom as implemented in ase. However, for some special cases (high-energy structures or species containing metals) not all the bonds may be drawn. In those cases, the variable 'explicit' should be substituted by a list of lists containing the index of the pairs of atoms whose bond you would like to add. For example, if I want to add a bond between the first and third atoms, and another one between the first and fourth atoms:
 
 explicit = [[0,2],[0,3]]
 
@@ -43,6 +43,6 @@ Note that in Python the indexes start at 0!
 3. Once the keyframes have been assigned for the position of the atoms in the movie, it is  
 annoying to change the orientation of the species. Make sure to rotate the species in your structure file prior to creating the final scene.
 
-4. This code is based on a brute-force approach. While large files may be uploaded using this code (I got to upload 700 atoms in 500 snapshots, i.e., thousands of objects in Blender), these tasks may take a while. Loading medium-sized files shouldn't take longer than a minute or two. The package includes an .xyz file with a tioproline molecule (test.xyz) as a test case. In my PC, the loading is instantaneous. 
+4. This code is based on a brute-force approach. While large files may be uploaded using this code (I got to upload 700 atoms in 500 snapshots, i.e., thousands of objects in Blender), these tasks may take a while. Loading medium-sized files shouldn't take longer than a minute or two. 
 
 5. I hope this code is useful for you. Feel free to modify it and share it with more people. If you have any suggestion I will be happy to hear it!
