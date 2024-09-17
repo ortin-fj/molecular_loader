@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/e9e372c9-1ff0-4b95-8ca8-a1e5bcb6e2fc
 
 The package "Molecular Nodes" from Brady Johnston (https://github.com/BradyAJohnston/MolecularNodes) is far superior in this aspect, but this code allows to easily have full control of every single bond in the simulation. 
 
-I would like to acknowledge "Blender Atomic Loader" (https://github.com/nanotech-empa/blender-atomic-loader). My code is more of an update of his code than a complete project of mine. His code was designed for Blender v.2 and unfortunately it doesn't work anymore (at least in my PC).
+I would like to acknowledge "Blender Atomic Loader" (https://github.com/nanotech-empa/blender-atomic-loader). My code is more of an update of his code than a complete project of mine. His code was designed to load single frames in Blender v.2 and unfortunately it doesn't work anymore (at least in my PC). My code updates his project so it works in newer versions of Blender, but it also adds the functionality to read molecular dynamics trajectories and other minor changes.
 
 
 ##########    WHAT YOU WILL NEED   ##########
