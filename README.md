@@ -1,8 +1,5 @@
 # molecular_loader
 
-Python package and Blender add-on that loads single geometries or molecular
-dynamics trajectories into Blender as spheres, bond cylinders and keyframes.
-
 Welcome to Molecular Loader for Blender! Blender already has a built-in function
 to upload molecules, but this one can also upload molecular dynamics
 trajectories, so you can make beautiful movies for your scientific conferences.
