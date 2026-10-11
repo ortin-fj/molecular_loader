@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+.pytest_cache/
+.ruff_cache/
+
+# Dependencies installed inside the add-on for Blender's Python
+src/molecular_loader/libs/
+
+# Installable add-on zip
+dist/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+
+# Blender backups
+*.blend1
+*.blend2

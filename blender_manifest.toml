@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "molecular_loader"
+name = "Molecular Loader"
+tagline = "Load molecules as spheres, bonds and animated keyframes"
+version = "0.2.0"
+type = "add-on"
+
+maintainer = "ortin-fj <ortin.fj@gmail.com>"
+license = ["SPDX:MIT"]
+website = "https://github.com/ortin-fj/molecular_loader"
+blender_version_min = "4.2.0"
+
+# ASE (and the scipy it imports) are not bundled: they must match the Python
+# version of the installed Blender, so the add-on installs them on demand from
+# the "Install dependencies" button (or scripts/install_dependencies.py).
